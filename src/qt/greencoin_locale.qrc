@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/greencoin_bg.qm</file>
+        <file alias="ca">locale/greencoin_ca.qm</file>
+        <file alias="cs">locale/greencoin_cs.qm</file>
+        <file alias="da">locale/greencoin_da.qm</file>
+        <file alias="de">locale/greencoin_de.qm</file>
+        <file alias="en">locale/greencoin_en.qm</file>
+        <file alias="en_US">locale/greencoin_en_US.qm</file>
+        <file alias="es">locale/greencoin_es.qm</file>
+        <file alias="fi">locale/greencoin_fi.qm</file>
+        <file alias="fr_FR">locale/greencoin_fr_FR.qm</file>
+        <file alias="hr">locale/greencoin_hr.qm</file>
+        <file alias="it">locale/greencoin_it.qm</file>
+        <file alias="ja">locale/greencoin_ja.qm</file>
+        <file alias="ko_KR">locale/greencoin_ko_KR.qm</file>
+        <file alias="nl">locale/greencoin_nl.qm</file>
+        <file alias="pl">locale/greencoin_pl.qm</file>
+        <file alias="pt">locale/greencoin_pt.qm</file>
+        <file alias="pt_BR">locale/greencoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/greencoin_ro_RO.qm</file>
+        <file alias="ru">locale/greencoin_ru.qm</file>
+        <file alias="sk">locale/greencoin_sk.qm</file>
+        <file alias="sv">locale/greencoin_sv.qm</file>
+        <file alias="tr">locale/greencoin_tr.qm</file>
+        <file alias="uk">locale/greencoin_uk.qm</file>
+        <file alias="zh_CN">locale/greencoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/greencoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

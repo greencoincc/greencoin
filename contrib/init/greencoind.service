@@ -1,0 +1,26 @@
+[Unit]
+Description=GRNC's distributed currency daemon
+After=network.target
+
+[Service]
+User=greencoin
+Group=greencoin
+
+Type=forking
+PIDFile=/var/lib/greencoind/greencoind.pid
+
+ExecStart=/usr/bin/greencoind -daemon -pid=/var/lib/greencoind/greencoind.pid \
+          -conf=/etc/greencoin/greencoin.conf -datadir=/var/lib/greencoind
+
+ExecStop=-/usr/bin/greencoin-cli -conf=/etc/greencoin/greencoin.conf \
+         -datadir=/var/lib/greencoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
